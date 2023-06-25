@@ -4,7 +4,7 @@ import { CalificacionComponent } from './paginas/calificacion/calificacion.compo
 import { Apirest1Component } from './paginas/apirest1/apirest1.component';
 import { Apirest2Component } from './paginas/apirest2/apirest2.component';
 import { AppRoutingModule } from '../app-routing.module';
-
+import { MaterialModule } from '../angularmaterial/material.module';
 
 
 @NgModule({
@@ -15,7 +15,8 @@ import { AppRoutingModule } from '../app-routing.module';
   ],
   imports: [
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    MaterialModule,
   ]
 })
 export class Cl3Module { }
