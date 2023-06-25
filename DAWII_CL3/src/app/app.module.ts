@@ -17,8 +17,12 @@ import { MaterialModule } from './angularmaterial/material.module';
     MaterialModule,
     AppRoutingModule,
     BrowserAnimationsModule
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+// hola
