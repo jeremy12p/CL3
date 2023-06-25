@@ -9,13 +9,13 @@ import { MaterialModule } from './angularmaterial/material.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CL3Component
+    AppComponent
   ],
   imports: [
+   
     BrowserModule,
-    AppRoutingModule,
     MaterialModule,
+    AppRoutingModule,
     BrowserAnimationsModule
   ],
   providers: [],

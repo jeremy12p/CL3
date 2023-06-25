@@ -1,1 +1,21 @@
-<p>calificacion works!</p>
+<div class="container">
+  <h2>Ingreso de Calificaciones</h2>
+  <div class="form-group mb-4" >
+    <label for="cali1Input">Calificación 1:</label>
+    <input type="number" class="form-control" id="cali1Input" #cali1Input>
+  </div>
+  <div class="form-group mb-4">
+    <label for="cali2Input">Calificación 2:</label>
+    <input type="number" class="form-control" id="cali2Input" #cali2Input>
+  </div>
+  <div class="form-group mb-4">
+    <label for="cali3Input">Calificación 3:</label>
+    <input type="number" class="form-control" id="cali3Input" #cali3Input>
+  </div>
+  <button class="btn btn-primary mb-4" (click)="calcularPromedio(cali1Input.value, cali2Input.value, cali3Input.value)">Calcular Promedio</button>
+  <div class="resultado">
+    <p>El promedio de las calificaciones es: {{ promedio }}</p>
+  </div>
+  
+</div>
+
