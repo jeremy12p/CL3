@@ -6,6 +6,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { MaterialModule } from '../angularmaterial/material.module';
 import { ListadoComponent } from './paginas/apitest/listado/listado.component';
 import { DetalleComponent } from './paginas/apitest/detalle/detalle.component';
+import { ApitestComponent } from './paginas/apitest/apitest.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DetalleComponent } from './paginas/apitest/detalle/detalle.component';
     CalificacionComponent,
     Apirest1Component,
     ListadoComponent,
-    DetalleComponent
+    DetalleComponent,
+    ApitestComponent
   ],
   imports: [
     AppRoutingModule,
