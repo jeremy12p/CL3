@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CL3Component } from './cl3/cl3.component';
 import { CalificacionComponent } from './cl3/paginas/calificacion/calificacion.component';
 import { Apirest1Component } from './cl3/paginas/apirest1/apirest1.component';
+import { ApitestComponent } from './cl3/paginas/apitest/apitest.component';
 
 const routes: Routes = [
 
@@ -16,6 +17,10 @@ const routes: Routes = [
       path: 'apirest1',
       component: Apirest1Component
   },
+  { 
+    path: 'apitest',
+    component: ApitestComponent
+},
   { 
       path: '**',
       redirectTo: ''

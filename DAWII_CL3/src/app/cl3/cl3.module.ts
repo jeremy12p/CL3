@@ -4,12 +4,18 @@ import { CalificacionComponent } from './paginas/calificacion/calificacion.compo
 import { Apirest1Component } from './paginas/apirest1/apirest1.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { MaterialModule } from '../angularmaterial/material.module';
+import { ApitestComponent } from './paginas/apitest/apitest.component';
+import { ListadoComponent } from './paginas/apitest/listado/listado.component';
+import { DetalleComponent } from './paginas/apitest/detalle/detalle.component';
 
 
 @NgModule({
   declarations: [
     CalificacionComponent,
-    Apirest1Component
+    Apirest1Component,
+    ApitestComponent,
+    ListadoComponent,
+    DetalleComponent
   ],
   imports: [
     AppRoutingModule,
