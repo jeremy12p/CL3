@@ -4,6 +4,7 @@ import { CL3Component } from './cl3/cl3.component';
 import { CalificacionComponent } from './cl3/paginas/calificacion/calificacion.component';
 import { Apirest1Component } from './cl3/paginas/apirest1/apirest1.component';
 import { ApitestComponent } from './cl3/paginas/apitest/apitest.component';
+import { ListadoComponent } from './cl3/paginas/apitest/listado/listado.component';
 
 const routes: Routes = [
 
@@ -19,7 +20,7 @@ const routes: Routes = [
   },
   { 
     path: 'apitest',
-    component: ApitestComponent
+    component: ListadoComponent
 },
   { 
       path: '**',
